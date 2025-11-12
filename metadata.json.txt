@@ -1,0 +1,5 @@
+{
+  "description": "",
+  "requestFramePermissions": [],
+  "name": "Análisis y Gestión de Cartera"
+}
