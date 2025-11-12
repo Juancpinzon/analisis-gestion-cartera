@@ -582,13 +582,13 @@ const Dashboard = ({
           subtext="En Top 5 Clientes"
         />
 
-        <${TopDebtorsCard} topDebtors=${data.topDebtors} />
         <${InvoiceTable}
           invoices=${top5Invoices}
           onSort=${handleSort}
           sortConfig=${sortConfig}
           title="Detalle Facturas Individuales Top 5"
         />
+        <${TopDebtorsCard} topDebtors=${data.topDebtors} />
 
         ${isLoading &&
         html`
